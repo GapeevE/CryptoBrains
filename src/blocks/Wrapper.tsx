@@ -63,6 +63,8 @@ export default function Wrapper({ children }: { children?: ReactNode }) {
         ref={wrapperRef}
         className="flex flex-row gap-3 md:gap-5 lg:gap-7 w-full my-4 py-6 overflow-auto wrapper"
         onMouseEnter={() => setAutoScrollEnabled(false)}
+        onTouchStart={() => setAutoScrollEnabled(false)}
+        onTouchEnd={() => setAutoScrollEnabled(true)}
         onMouseLeave={() => setAutoScrollEnabled(true)}
         >
         {children}
