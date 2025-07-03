@@ -39,7 +39,7 @@ Track cryptocurrencies in real-time with beautiful visualizations and smooth ani
 
 Experience Crypto Brains live:
 
-👉 [link](https://crypto-brains-em6qd2p56-yegors-projects-81d5a69f.vercel.app/)
+👉 [link](https://crypto-brains.vercel.app)
 
 ## ⚡ Quick Start Guide
 
